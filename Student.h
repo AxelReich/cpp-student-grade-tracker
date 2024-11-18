@@ -22,7 +22,7 @@ public:
 
 
 protected:
-        string firstName[21];
-        string lastName[21];
+        string firstName;
+        string lastName;
         string course; 
 };
