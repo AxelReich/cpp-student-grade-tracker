@@ -7,22 +7,16 @@ class Student{
 public:
     // Constructor
     Student();
-    Student(const string& fn, const string& ln, const string& c);
-    // Destructor 
-    virtual ~Student();
+    Student(const char* fn, const char* ln, const char* c);
 
     //Getters 
-    string GetFirstName() const;
-    string GetLastName() const;
-    string GetCourse() const;
-
-    //Setter 
-    void SetData();
-
+    const char* GetFirstName() const;
+    const char* GetLastName() const;
+    const char* GetCourse() const;
 
 
 protected:
-        string firstName;
-        string lastName;
-        string course; 
+        char firstName[21];           // Max 20 chars 
+        char lastName[21];            // Max 20 chars 
+        char course[20];              // Courses: Biology, Computer Science, Theater -> These would be the derived classes 
 };
