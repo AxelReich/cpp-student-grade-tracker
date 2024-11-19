@@ -1,3 +1,6 @@
+#ifndef _STUDENT_H
+#define _STUDENT_H
+
 #include <iostream>
 #include <cstring>
 
@@ -7,16 +10,25 @@ class Student{
 public:
     // Constructor
     Student();
-    Student(const char* fn, const char* ln, const char* c);
+    Student(string fn, string ln, string c);
+
+    virtual void GradeAvg()=0;
 
     //Getters 
-    const char* GetFirstName() const;
-    const char* GetLastName() const;
-    const char* GetCourse() const;
+    string GetFirstName() const;
+    string GetLastName() const;
+    string GetCourse() const;
+
+    //Setters 
+    void SetFirstName(string fn);
+    void SetLastName(string ln);
+    void SetCourse(string c);
 
 
 protected:
-        char firstName[21];           // Max 20 chars 
-        char lastName[21];            // Max 20 chars 
-        char course[20];              // Courses: Biology, Computer Science, Theater -> These would be the derived classes 
+        string firstName;           // Max 20 chars 
+        string lastName;            // Max 20 chars 
+        string course;              // Courses: Biology, Computer Science, Theater -> These would be the derived classes 
 };
+
+#endif
