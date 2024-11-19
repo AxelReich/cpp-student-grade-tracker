@@ -2,24 +2,40 @@
 
 
 // Constructor
-Student::Student()
+Student::Student(){}
+Student::Student(string fn, string ln, string c)
 {
-}
-Student::Student(const char* fn, const char* ln, const char* c)
 {
-    if (strlen(fn) <= 20 && strlen(ln) <= 20 && 
-    (strcmp(c, "Biology") == 0 || strcmp(c, "Theater") == 0 || strcmp(c, "Computer Science") == 0)) {
-        strcpy(firstName, fn);
-        strcpy(lastName, ln);
-        strcpy(course, c);
+    if (fn.length() > 20 || ln.length() > 20 || (c != "Biology" && c != "Computer Science" && c != "Theater")) {
+        std::cout << "Error: One or more parameters are invalid." << std::endl;
+    } else {
+        SetFirstName(fn);
+        SetLastName(ln);
+        SetCourse(c);
     }
-    // Else: invalid error or set to default????
+}
 }
 
 
 //Getters 
-const char* Student::GetFirstName() const {return firstName;}
-const char* Student::GetLastName()  const {return lastName;}
-const char* Student::GetCourse()    const {return course;}
+string Student::GetFirstName() const {return firstName;}
+string Student::GetLastName()  const {return lastName;}
+string Student::GetCourse()    const {return course;}
 
+//Setters 
+void Student::SetFirstName(string fn) {
+    if (fn.length() <= 20) {
+        firstName = fn;
+    }
+}
+void Student::SetLastName(string ln) {
+    if (ln.length() <= 20) {
+        lastName = ln;
+    }
+}
+void Student::SetCourse(string c) {
+    if (c == "Biology" || c == "Computer Science" || c == "Theater") {
+        course = c;
+    }
+}
 
