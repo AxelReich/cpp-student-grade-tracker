@@ -6,7 +6,7 @@ Student::Student(){}
 Student::Student(string fn, string ln, string c)
 {
 {
-    if (fn.length() > 20 || ln.length() > 20 || (c != "Biology" && c != "Computer Science" && c != "Theater")) {
+    if (fn.length() > 20 || ln.length() > 20 ) {
         std::cout << "Error: One or more parameters are invalid." << std::endl;
     } else {
         SetFirstName(fn);
