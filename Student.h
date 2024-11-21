@@ -18,6 +18,11 @@ public:
     string GetFirstName() const;
     string GetLastName() const;
     string GetCourse() const;
+    virtual int GetGradeAvg() const=0;
+    virtual char GetLetterGrade() const=0;
+    virtual int GetFinalExam() const=0;
+    
+
 
     //Setters 
     void SetFirstName(string fn);
