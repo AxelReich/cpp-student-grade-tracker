@@ -11,6 +11,8 @@ public:
     // Constructor
     Student();
     Student(string fn, string ln, string c);
+    ~Student(); 
+
 
     virtual void GradeAvg()=0;
 

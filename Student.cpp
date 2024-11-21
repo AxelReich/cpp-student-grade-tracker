@@ -1,21 +1,16 @@
 #include "Student.h"
 
-
+// I should add the condition that if the first or last name is more than 20 chars or the courses are not them, then does not create it
 // Constructor
 Student::Student(){}
 Student::Student(string fn, string ln, string c)
 {
-{
-    if (fn.length() > 20 || ln.length() > 20 ) {
-        std::cout << "Error: One or more parameters are invalid." << std::endl;
-    } else {
-        SetFirstName(fn);
-        SetLastName(ln);
-        SetCourse(c);
-    }
+    // HERE I SHOULD ADD TO SEE IF FN IS LESS THAN THE EXPECtED
+    SetFirstName(fn);
+    SetLastName(ln);
+    SetCourse(c);
 }
-}
-
+Student::~Student(){}
 
 //Getters 
 string Student::GetFirstName() const {return firstName;}
@@ -24,18 +19,15 @@ string Student::GetCourse()    const {return course;}
 
 //Setters 
 void Student::SetFirstName(string fn) {
-    if (fn.length() <= 20) {
-        firstName = fn;
-    }
+    firstName = fn;
+
 }
 void Student::SetLastName(string ln) {
-    if (ln.length() <= 20) {
-        lastName = ln;
-    }
+    lastName = ln;
+    
 }
 void Student::SetCourse(string c) {
-    if (c == "Biology" || c == "Computer Science" || c == "Theater") {
-        course = c;
-    }
+    course = c;
+    
 }
 
