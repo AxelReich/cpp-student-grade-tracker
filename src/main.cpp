@@ -9,6 +9,7 @@ void showMenu() {
     cout << "I       Import students from a file\n";
     cout << "S       Show student list (brief)\n";
     cout << "E       Export a grade report (to file)\n";
+    cout << "O       sOrt student list \n";
     cout << "M       Show this Menu\n";
     cout << "Q       Quit Program\n";
 }
@@ -57,10 +58,15 @@ int main() {
                     cout << "Error: Unable to export the grade report.\n";
                 }
                 break;
-                }
+            }
             case 'm': {
                 // Show the menu again
                 showMenu();
+                break;
+            }
+            case 'o': {
+                // Sort the list 
+                studentList.Sort();
                 break;
             }
             case 'q': {

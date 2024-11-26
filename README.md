@@ -64,6 +64,7 @@ The program will display a menu like this:
 I       Import students from a file
 S       Show student list (brief)
 E       Export a grade report (to file)
+O       sOrt student list 
 M       Show this Menu
 Q       Quit Program
 You can select options to import student data, show the list, export the grade report, or display the menu.

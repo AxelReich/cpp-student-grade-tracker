@@ -1,0 +1,68 @@
+Student Grade Summary
+---------------------
+
+BIOLOGY CLASS
+
+Student Name                            Final ExamFinal Avg Letter Grade
+----------------------------------------------------------------------
+Allen Olivia                            85        82.90     B
+Brown Charlie                           79.00     81.55     B
+Cyrus Miley                             71.00     67.70     D
+Esteban Jose                            79.00     81.55     B
+Federer Roger                           85.00     82.90     B
+Green Jack                              93.00     88.80     B
+Johnson Emily                           92.00     89.15     B
+Ricardo Rodriguez                       71.00     67.70     D
+Rodriguez Pedro                         93.00     88.80     B
+Rosales Emily                           92.00     89.15     B
+Uzmar Darrell                           85.00     73.00     C
+Walker Chris                            80.00     75.80     C
+Walker Paul                             80.00     75.80     C
+Wilson Kate                             85.00     73.00     C
+
+
+THEATER CLASS
+
+Student Name                            Final ExamFinal Avg Letter Grade
+----------------------------------------------------------------------
+Bitner Robert                           85.00     87.95     B
+Doe Jane                                90.00     79.50     C
+Done Jake                               90.00     79.50     C
+Hill Liam                               70.00     64.75     D
+King Ava                                84.00     86.10     B
+King David                              84.00     86.10     B
+Perez Juan J.                           74.00     77.70     C
+Philipp Liam                            70.00     64.75     D
+Simpson Homer J.                        74.00     77.70     C
+Taylor Robert                           85.00     87.95     B
+Thomas Edgar                            75.00     69.75     D
+Thomas Ethan                            75.00     69.75     D
+Young Shelton                           75.00     80.25     B
+Young Sophia                            75.00     80.25     B
+
+
+COMPSCI CLASS
+
+Student Name                            Final ExamFinal Avg Letter Grade
+----------------------------------------------------------------------
+Davis Susan                             84.00     83.90     B
+Delpo Martin                            94.00     89.50     B
+Gonzale John                            91.00     89.25     B
+Gonzales Susan                          84.00     83.90     B
+Jackson Laura                           93.00     91.05     A
+Martin Noah                             90.00     87.75     B
+Miller Alice                            86.00     83.40     B
+Scott Mia                               94.00     89.50     B
+Shelby Alice                            86.00     83.40     B
+Sjokivic Novak                          90.00     87.75     B
+Smith John                              91.00     89.25     B
+Zubiria Laura                           93.00     91.05     A
+
+
+OVERALL GRADE DISTRIBUTION
+
+A:   2
+B:   24
+C:   8
+D:   6
+F:   0
