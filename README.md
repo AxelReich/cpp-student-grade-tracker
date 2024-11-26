@@ -2,30 +2,11 @@ GradeSystem
 Overview
 The GradeSystem project is a simple C++ application that manages student grade reports for various courses. It demonstrates the use of object-oriented programming concepts such as inheritance, polymorphism, and dynamic memory management. The application supports multiple student types, including Biology, Theater, and Computer Science students.
 
-Directory Structure
-plaintext
-Copy code
-GradeSystem/
-├── src/                # Source files
-│   ├── main.cpp        # Entry point of the application
-│   ├── Student.cpp     # Base class implementation
-│   ├── Biology.cpp     # Derived class implementation
-│   ├── Theater.cpp     # Derived class implementation
-│   ├── ComputerScience.cpp  # Derived class implementation
-│   ├── StudentList.cpp # Handles a list of students
-├── include/            # Header files
-│   ├── Student.h       # Base class declaration
-│   ├── Biology.h       # Derived class declaration
-│   ├── Theater.h       # Derived class declaration
-│   ├── ComputerScience.h # Derived class declaration
-├── build/              # Compiled object files (created during build)
-├── bin/                # Compiled executable (created during build)
-│   ├── student_program # Final executable
-├── tests/              # Unit test files (optional)
-│   ├── test_main.cpp   # Tests for the application
-├── Makefile            # Build automation
-├── README.md           # Project documentation
-Features
+
+<img width="455" alt="Screenshot 2024-11-25 at 8 52 13 PM" src="https://github.com/user-attachments/assets/e9a7055b-8975-4729-984a-cd6d67791409">
+
+
+Features:
 Import student data: Read student details from a file.
 Dynamic memory management: Create and store students dynamically based on their course type.
 Polymorphism: Use virtual functions to handle different student types through a unified interface.
@@ -104,6 +85,7 @@ Future Enhancements
 Add a graphical user interface (GUI) for better usability.
 Extend the grading system to include more student types and course categories.
 Add unit tests in the tests/ directory to ensure program correctness.
+
 Author
 Axel Reich
 A passionate Computer Science student exploring object-oriented programming and software design.
