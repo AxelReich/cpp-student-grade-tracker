@@ -1,4 +1,4 @@
-#include "Student.h"
+#include "../include/Student.h"
 
 // I should add the condition that if the first or last name is more than 20 chars or the courses are not them, then does not create it
 // Constructor
