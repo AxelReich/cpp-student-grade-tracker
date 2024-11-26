@@ -2,8 +2,6 @@
 
 This C++ project manages student data, including importing, exporting, and displaying grade reports for different types of students (e.g., Biology, Theater, Computer Science).
 
-![Student Grade System](images/project-image.png)
-
 ## File Structure
 
 The project is organized as follows:
