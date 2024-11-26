@@ -198,3 +198,23 @@ void StudentList::Resize(int newSize)
 }
 
 
+void StudentList::Sort()
+{
+    Student* temp;
+    for (int i = 0; i < currSize-1; i++){
+        for (int j = i+1; j < currSize; j++){
+            if (students[i]->GetLastName() == students[j]->GetLastName()){
+                if (students[i]->GetFirstName() > students[j]->GetFirstName()){
+                    temp = students[i];
+                    students[i] = students[j];
+                    students[j] = temp;
+                }
+            }
+            else if (students[i]->GetLastName() > students[j]->GetLastName()){
+                    temp = students[i];
+                    students[i] = students[j];
+                    students[j] = temp;
+            }
+        }
+    }
+}

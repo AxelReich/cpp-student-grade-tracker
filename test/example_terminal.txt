@@ -1,0 +1,149 @@
+*** Student List menu ***
+I       Import students from a file
+S       Show student list (brief)
+E       Export a grade report (to file)
+O       sOrt student list 
+M       Show this Menu
+Q       Quit Program
+> i
+Enter filename: ewr.txt
+Invalid file. No data imported.
+
+
+> i
+Enter filename: test1.txt
+Students imported successfully.
+
+
+> i
+Enter filename: test2.txt
+Students imported successfully.
+
+
+> e
+Enter filename: output.txt
+Grade report exported successfully.
+
+
+> m
+
+*** Student List menu ***
+I       Import students from a file
+S       Show student list (brief)
+E       Export a grade report (to file)
+O       sOrt student list 
+M       Show this Menu
+Q       Quit Program
+
+
+> s
+Last Name           First Name          Course
+------------------------------------------------------------
+Simpson              Homer J.           Theater
+Cyrus                Miley              Biology
+Smith                John               Computer Science
+Doe                  Jane               Theater
+Brown                Charlie            Biology
+Davis                Susan              Computer Science
+Wilson               Kate               Biology
+Taylor               Robert             Theater
+Miller               Alice              Computer Science
+Johnson              Emily              Biology
+Thomas               Ethan              Theater
+Jackson              Laura              Computer Science
+Walker               Chris              Biology
+Young                Sophia             Theater
+Martin               Noah               Computer Science
+Allen                Olivia             Biology
+Hill                 Liam               Theater
+Scott                Mia                Computer Science
+Green                Jack               Biology
+King                 Ava                Theater
+Perez                Juan J.            Theater
+Ricardo              Rodriguez          Biology
+Gonzale              John               Computer Science
+Done                 Jake               Theater
+Esteban              Jose               Biology
+Gonzales             Susan              Computer Science
+Uzmar                Darrell            Biology
+Bitner               Robert             Theater
+Shelby               Alice              Computer Science
+Rosales              Emily              Biology
+Thomas               Edgar              Theater
+Zubiria              Laura              Computer Science
+Walker               Paul               Biology
+Young                Shelton            Theater
+Sjokivic             Novak              Computer Science
+Federer              Roger              Biology
+Philipp              Liam               Theater
+Delpo                Martin             Computer Science
+Rodriguez            Pedro              Biology
+King                 David              Theater
+
+
+> m
+
+*** Student List menu ***
+I       Import students from a file
+S       Show student list (brief)
+E       Export a grade report (to file)
+O       sOrt student list 
+M       Show this Menu
+Q       Quit Program
+
+
+> o
+
+
+> s
+Last Name           First Name          Course
+------------------------------------------------------------
+Allen                Olivia             Biology
+Bitner               Robert             Theater
+Brown                Charlie            Biology
+Cyrus                Miley              Biology
+Davis                Susan              Computer Science
+Delpo                Martin             Computer Science
+Doe                  Jane               Theater
+Done                 Jake               Theater
+Esteban              Jose               Biology
+Federer              Roger              Biology
+Gonzale              John               Computer Science
+Gonzales             Susan              Computer Science
+Green                Jack               Biology
+Hill                 Liam               Theater
+Jackson              Laura              Computer Science
+Johnson              Emily              Biology
+King                 Ava                Theater
+King                 David              Theater
+Martin               Noah               Computer Science
+Miller               Alice              Computer Science
+Perez                Juan J.            Theater
+Philipp              Liam               Theater
+Ricardo              Rodriguez          Biology
+Rodriguez            Pedro              Biology
+Rosales              Emily              Biology
+Scott                Mia                Computer Science
+Shelby               Alice              Computer Science
+Simpson              Homer J.           Theater
+Sjokivic             Novak              Computer Science
+Smith                John               Computer Science
+Taylor               Robert             Theater
+Thomas               Edgar              Theater
+Thomas               Ethan              Theater
+Uzmar                Darrell            Biology
+Walker               Chris              Biology
+Walker               Paul               Biology
+Wilson               Kate               Biology
+Young                Shelton            Theater
+Young                Sophia             Theater
+Zubiria              Laura              Computer Science
+
+
+> e
+Enter filename: sorted_output.txt 
+Grade report exported successfully.
+
+
+> q
+Goodbye!

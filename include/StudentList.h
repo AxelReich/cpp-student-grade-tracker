@@ -19,6 +19,8 @@ public:
 
     void ShowList() const;             // Print the current list of students, one per line. lastName, firstName, course.
 
+    void Sort();          // Sort the array students 
+
 private:
     Student** students;             // Dinamyc array of pointers array to students objects
     int currSize;
